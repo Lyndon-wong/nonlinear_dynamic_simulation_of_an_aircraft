@@ -12,9 +12,13 @@ This project is a homework project for the course: *Modern Flight Control System
 
 1. load "sheet.mat".
 2. check the model: the trim mode should be connected. Then you can use the trim function in the shell to find the desired stable state. You can use
+
 ```[x,u,y] = trim('unlinearized',xi,ui,yi,[],[],[]) ```
+
 and also
+
 ```[x,u,y] = trim('unlinearized',xi,ui,yi,[],[],[2,3,4,5,6,7,8,9])```
+
 A recommended state has been set in xi, yi, ui.
 3. check the model: the test mode should be connected.
 4. run the model and you can see the result in graph.
