@@ -1,4 +1,4 @@
-# nonlinear_simulation_of_an_aircraft
+# nonlinear_dynamic_simulation_of_an_aircraft
 
 # About
 
@@ -15,7 +15,7 @@ This project is a homework project for the course: *Modern Flight Control System
 
    ```[x,u,y] = trim('unlinearized',xi,ui,yi,[],[],[]) ```
 
-   and also
+   or you want to set more limits on state, use
 
    ```[x,u,y] = trim('unlinearized',xi,ui,yi,[],[],[2,3,4,5,6,7,8,9])```
 
@@ -28,5 +28,5 @@ This project is a homework project for the course: *Modern Flight Control System
 # Notice
 
 1. Matlab2020a or up version is required.
-2. There is also a linearized for you to compare.
+2. There is also a linearized model for you to compare.
 
